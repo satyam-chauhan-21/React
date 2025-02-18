@@ -79,3 +79,15 @@
 // most of the work isi oflder ke andar hota hai.
 // npx vale me index.js and App.js hi kaam ki files hoti hai. jisme App.js may be ek component hai.
 // vite vale me main.jsx and App.jsx kaam hi files hai. jisme App.jsx bhi shayad ek component hoga.
+
+
+
+//------------------------------------------------------------------------------------------------//
+//                              JS react ke Html me inject kese hota hai
+//------------------------------------------------------------------------------------------------//
+/**
+ * react me JS(jaya per me index.js ki baat kar raha hu), HTML ke andar npx vaali method me to "react-scripts" ke through internally setting karke ho jati hai.
+ * 
+ * and vite me ye kaam, direct script tag ka use karke ho jata hai, means index.html me hi script tag laga ke uske andar main.jsx ka path de dete hai.
+ * 
+ */
